@@ -1,0 +1,40 @@
+{
+	"name": "spicetify-dynamic-windows-theme",
+	"author": "YCHstudio",
+	"description": "A 3rd party application working with \"dynamic-theme\" to change the windows color theme.",
+	"version": "0.1.0",
+	"main": "main.js",
+	"build": {
+		"appId": "com.ychstudio.spicetifydynamicwindowstheme",
+		"productName": "Spicetify Dynamic Windows Theme",
+		"files": [
+			"**/*",
+			"server.js",
+			"assets/**/*"
+		],
+		"asar": true,
+		"win": {
+			"target": "nsis",
+			"icon": "assets/icon.ico"
+		},
+		"nsis": {
+			"oneClick": false,
+			"perMachine": false,
+			"allowElevation": true,
+			"allowToChangeInstallationDirectory": true,
+			"createDesktopShortcut": true,
+			"createStartMenuShortcut": true,
+			"shortcutName": "Spicetify Dynamic Windows Theme",
+			"installerIcon": "assets/icon.ico",
+			"uninstallerIcon": "assets/icon.ico",
+			"installerHeaderIcon": "assets/icon.ico"
+		}
+	},
+	"scripts": {
+		"start": "electron .",
+		"build": "electron-builder"
+	},
+	"dependencies": {
+		"auto-launch": "^5.0.6"
+	}
+}
