@@ -1,0 +1,25 @@
+{
+  "name": "lux",
+  "product_name": "Lux",
+  "version": "0.2.9",
+  "description": "A 3rd party application working with \"dynamic-theme\" to change the Windows' theme color.",
+  "main": "index.html",
+  "window": {
+    "icon": "assets/icon.png",
+    "title": "Lux",
+    "show": false,
+    "toolbar": false,
+    "frame": false,
+    "show_in_taskbar": false,
+    "transparent": true,
+    "width": 1,
+    "height": 1,
+    "resizable": false
+  },
+  "author": "YCHstudio",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "auto-launch": "^5.0.6"
+  }
+}
+
