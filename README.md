@@ -1,7 +1,8 @@
 
-# Spotify Dynamic Windows Theme Changer
+# Lux
 
 This Program gets color data using modified "dynamic-theme" file then changes Windows' theme color by changing regedit datas.
+
 ## Features
 
 - Color changing by music's album cover.
