@@ -1,12 +1,12 @@
 {
-  "name": "spicetify-dynamic-windows-theme",
-  "product_name": "Spicetify Dynamic Windows Theme",
+  "name": "lux",
+  "product_name": "Lux",
   "version": "0.2.9",
-  "description": "A 3rd party application working with \"dynamic-theme\" to change the windows color theme.",
+  "description": "A 3rd party application working with \"dynamic-theme\" to change the Windows' theme color.",
   "main": "index.html",
   "window": {
     "icon": "assets/icon.png",
-    "title": "Spicetify Dynamic Windows Theme",
+    "title": "Lux",
     "show": false,
     "toolbar": false,
     "frame": false,
@@ -22,3 +22,4 @@
     "auto-launch": "^5.0.6"
   }
 }
+
