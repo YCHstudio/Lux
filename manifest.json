@@ -1,0 +1,11 @@
+{
+    "name": "Lux",
+    "description": "A 3rd party application working with \"dynamic-theme\" to change the windows color theme. ",
+    "preview": "assets/icon.png",
+    "readme": "README.md",
+    "branch": "main",
+    "authors": [
+        { "name": "YCHvideo", "url": "https://github.com/YCHstudio" }
+    ],
+    "tags": ["color", "theme", "windows", "dynamic"]
+}
