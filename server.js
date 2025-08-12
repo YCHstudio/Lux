@@ -112,15 +112,6 @@ const server = http.createServer((req, res) => {
   // Simple logging to console (NW.js parent captures child logs if debug)
   console.log(`[SERVER] ${req.method} ${req.url}`);
 
-  // CORS + basic allowed methods
-  res.setHeader("Access-Control-Allow-Origin", "*");
-  res.setHeader("Access-Control-Allow-Methods", "GET, OPTIONS");
-
-  if (req.method === "OPTIONS") {
-    res.writeHead(204);
-    return res.end();
-  }
-
   const parsed = url.parse(req.url, true);
 
   if (parsed.pathname === "/setcolor" && parsed.query && parsed.query.hex) {
