@@ -1,7 +1,7 @@
 
 # Lux
 
-This Program gets color data using modified "dynamic-theme" file then changes Windows' theme color by changing Regedit value.
+This Program gets color data using modified "dynamic-theme" file then changes Windows' theme color by changing Regedit values.
 
 ### DISCLAIMER : This program -as explained above- works by editing Regedit values. Use with discretion only. 
 
@@ -12,7 +12,7 @@ This Program gets color data using modified "dynamic-theme" file then changes Wi
 - Visible UI using system tray.
 - Can hold app logs.
 - Color changing animation. (to be honest it's default from Windows)
-- Around 100mb of ram usage.
+- Around 100 megabytes of RAM usage.
 
 ## Requirements
 
@@ -31,9 +31,9 @@ For building the file yourself, visit https://github.com/JulienMaille/spicetify-
 
 ## Installation (.exe Preferred)
 
-- Install the setup program from releases and follow the instructions.
+- Install the setup program from [releases](https://github.com/YCHstudio/Lux/releases) and follow the instructions.
 
-- Replace the "default-dynamic.js" from releases or add the following commands to the original file:
+- Replace the "default-dynamic.js" from [releases](https://github.com/YCHstudio/Lux/releases) or add the following commands to the original file:
 
 Press ```CTRL + F``` and search for ```function updateColors(textColHex) ```
 
@@ -46,7 +46,7 @@ function sendColorToWindows(hex) {
 }
 
 ```
-After this proccess add the following line to the end of the this function ```function updateColors(textColHex) ```:
+After this proccess add the following line to the end of this function ```function updateColors(textColHex) ```:
 
 ```js
 sendColorToWindows(textColHex);
@@ -65,7 +65,7 @@ Now you're ready to use it. Start the program and use it. Enjoy :)
     
 ## Installation (via Building the program)
 
-- Install the source code from releases or directly from the main page.
+- Install the source code from [releases](https://github.com/YCHstudio/Lux/releases) or directly from the main page.
 
 - At the folder run the CMD and type:
 
@@ -100,6 +100,8 @@ Normally no. However this program plays with regedit values so I can't say it's 
 ## Authors
 
 - [@YCHvideo](https://github.com/YCHstudio)
-- [@weroxima](https://github.com/weroxima)
-- [JulienMaille](https://github.com/JulienMaille) for the 'default-dynamic.js' and the installation guide for it.
-
+- [@weroxima](https://github.com/weroxima) for README.md and name suggestion.
+- [JulienMaille](https://github.com/JulienMaille/spicetify-dynamic-theme) for the 'default-dynamic.js' and the installation guide for it. (MIT)
+- [NW.js](https://github.com/nwjs/nw.js) for the NW.js. (MIT)
+- [Resource Hacker](https://www.angusj.com/resourcehacker/) (All-Rights-Reserved, see https://www.angusj.com/resourcehacker/ for details.)
+- [Inno Setup](https://jrsoftware.org/isdl.php) (Inno Setup License)
