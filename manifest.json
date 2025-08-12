@@ -1,6 +1,6 @@
 {
     "name": "Lux",
-    "description": "A 3rd party application working with \"dynamic-theme\" to change the windows color theme. ",
+    "description": "A 3rd party application working with \"dynamic-theme\" to change the Windows' color theme. ",
     "preview": "assets/icon.png",
     "readme": "README.md",
     "branch": "main",
