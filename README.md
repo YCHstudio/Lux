@@ -3,6 +3,8 @@
 
 This Program gets color data using modified "dynamic-theme" file then changes Windows' theme color by changing Regedit values.
 
+![Preview](https://github.com/user-attachments/assets/9efc59e9-d9e0-49b2-aeb7-634b05b58cf3)
+
 ### DISCLAIMER : This program -as explained above- works by editing Regedit values. Use with discretion only. 
 
 ## Features
