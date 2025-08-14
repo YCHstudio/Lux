@@ -99,7 +99,7 @@ Normally no. However this program plays with regedit values so I can't say it's 
 [Custom APACHE 2.0](https://github.com/YCHstudio/Spicetify-Dynamic-Windows-Theme/blob/main/LICENSE)
 
 
-## Authors
+## Credits
 
 - [@YCHvideo](https://github.com/YCHstudio)
 - [@weroxima](https://github.com/weroxima) for README.md and name suggestion.
