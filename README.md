@@ -93,6 +93,10 @@ Yep it's 100% safe. This program creates a localhost server which is a local ser
 
 Normally no. However this program plays with regedit values so I can't say it's 100% safe BUT in normal conditions I assume you will be fine. 
 
+#### How do i delete the Lux?
+
+Well, I’m sorry to hear that you no longer want to use Lux. If you’re experiencing any issues, please feel free to open an issue so we can work on improving Lux. If you still wish to uninstall Lux, you can use the ```uninstall000.exe``` file located in the root folder, or you can remove the app through the Control Panel.
+
 
 ## License
 
