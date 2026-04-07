@@ -19,6 +19,7 @@ This Program gets color data using modified "dynamic-theme" file then changes Wi
 ## Requirements
 
 - 'default-dynamic.js' file. Obtained via either: building or through Powershell.
+- Win 11 required.
 
 ### Through Powershell
 
